@@ -67,7 +67,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>^\s*(function)\s*([a-zA-Z0-9_]*)\s*\((.*)\)</string>
+			<string>^\s*(?:static)?\s*(function)\s*((?:[a-zA-Z0-9_]+::)?[a-zA-Z0-9_]*)\s*\((.*?)\)</string>
 			<key>name</key>
 			<string>other.function</string>
 		</dict>
@@ -106,7 +106,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(if|while|do|switch|for|foreach|return|throw|yield|continue|catch|resume|default|else|case|print)\b</string>
+			<string>\b(if|while|do|switch|for|foreach|return|throw|yield|continue|catch|resume|default|else|case|print|break)\b</string>
 			<key>name</key>
 			<string>keyword.control.squirrel</string>
 		</dict>
