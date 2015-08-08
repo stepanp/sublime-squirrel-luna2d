@@ -4,7 +4,7 @@
 <dict>
 	<key>comment</key>
 	<string>Squirrel Syntax for luna2d: version 0.1</string>
-    <key>fileTypes</key>
+	<key>fileTypes</key>
 	<array>
 		<string>nut</string>
 	</array>
@@ -312,6 +312,6 @@
 	<key>scopeName</key>
 	<string>source.nut</string>
 	<key>uuid</key>
-    <string>CCFF04CD-6736-4CF2-9EEF-BB803B77490D</string>
+	<string>CCFF04CD-6736-4CF2-9EEF-BB803B77490D</string>
 </dict>
 </plist>
