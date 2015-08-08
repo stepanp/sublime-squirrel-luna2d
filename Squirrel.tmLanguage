@@ -106,7 +106,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(if|while|do|switch|for|foreach|return|throw|yield|continue|catch|resume|default|else|case|print|break)\b</string>
+			<string>\b(print|error)\b</string>
+			<key>name</key>
+			<string>support.function.squirrel</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(if|while|do|switch|for|foreach|return|throw|yield|continue|catch|resume|default|else|case|break)\b</string>
 			<key>name</key>
 			<string>keyword.control.squirrel</string>
 		</dict>
