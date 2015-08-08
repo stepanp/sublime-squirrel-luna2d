@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>comment</key>
-	<string>Squirrel Syntax: version 0.1</string>
+	<string>Squirrel Syntax for luna2d: version 0.1</string>
     <key>fileTypes</key>
 	<array>
 		<string>nut</string>
@@ -15,7 +15,7 @@
 	<key>keyEquivalent</key>
 	<string>^~S</string>
 	<key>name</key>
-	<string>Squirrel</string>
+	<string>LunaSquirrel</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -106,7 +106,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(print|error)\b</string>
+			<string>\b(luna[a-zA-Z.]+)\b</string>
+			<key>name</key>
+			<string>support.function.library.squirrel</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(print|error|require)\b</string>
 			<key>name</key>
 			<string>support.function.squirrel</string>
 		</dict>
